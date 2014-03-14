@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+# Copyright Swipely, Inc.  All rights reserved.
+
+require 'spec_helper'
+
+describe $1 do
+  $2
+end
+]]></content>
+  <tabTrigger>rspec</tabTrigger>
+  <description>New RSpec Spec</description>
+</snippet>
