@@ -4,7 +4,7 @@
                          ("marmalade" . "http://marmalade-repo.org/packages/")
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 
-(package-refresh-contents)
+;;(package-refresh-contents)
 
 ;; show cursor position
 (column-number-mode 1)
