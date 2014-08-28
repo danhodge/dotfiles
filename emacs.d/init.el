@@ -15,6 +15,10 @@
 ;; whitespace settings
 (require 'whitespace)
 
+;; use basic coloring only in whitespace mode
+(setq whitespace-style (quote
+  ( spaces tabs newline space-mark tab-mark newline-mark)))
+
 ;; general programming language settings
 (defun dh-prog-hooks ()
   (whitespace-mode)
