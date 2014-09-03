@@ -23,6 +23,7 @@
 (defun dh-prog-hooks ()
   (whitespace-mode)
   (delete-trailing-whitespace)
-  (linum-mode 1))
+  (linum-mode 1)
+  (git-gutter+-mode))
 
 (add-hook 'prog-mode-hook 'dh-prog-hooks)
