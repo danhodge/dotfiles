@@ -34,7 +34,12 @@
 
 ;; use basic coloring only in whitespace mode
 (setq whitespace-style (quote
-  ( spaces tabs newline space-mark tab-mark newline-mark)))
+  (face spaces tabs newline space-mark tab-mark)))
+
+(set-face-attribute 'whitespace-space nil
+		    :weight 'ultra-light
+		    :foreground "gray10"
+		    :background "black")
 
 (defun dh-prog-mode-delete-trailing-whitespace ()
   (when (derived-mode-p 'prog-mode)
