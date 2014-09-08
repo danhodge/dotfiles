@@ -21,6 +21,10 @@
 ;; linum settings
 (setq linum-format "%d ")
 
+(require 'color-theme)
+(color-theme-initialize)
+(color-theme-midnight)
+
 ;; whitespace settings
 (require 'whitespace)
 
