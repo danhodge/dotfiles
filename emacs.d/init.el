@@ -15,6 +15,9 @@
 ;; turn off alarms completely
 (setq ring-bell-function 'ignore)
 
+;; set cwd to project's root
+(setq default-directory "~/git")
+
 ;; show cursor position
 (column-number-mode 1)
 
