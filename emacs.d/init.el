@@ -18,6 +18,11 @@
 ;; set cwd to project's root
 (setq default-directory "~/git")
 
+;; enable ido mode with flex matching
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
 ;; show cursor position
 (column-number-mode 1)
 
