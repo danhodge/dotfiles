@@ -6,6 +6,15 @@
 (package-initialize)
 ;;(package-refresh-contents)
 
+;; hide the tool bar
+(tool-bar-mode -1)
+
+;; disable audible bell
+;;(setq visible-bell 1)
+
+;; turn off alarms completely
+(setq ring-bell-function 'ignore)
+
 ;; show cursor position
 (column-number-mode 1)
 
