@@ -28,15 +28,25 @@
 ;; whitespace settings
 (require 'whitespace)
 
+;; trim extraneous whitespace
+(require 'ws-trim)
+(global-ws-trim-mode t)
+
 ;; use basic coloring only in whitespace mode
 (setq whitespace-style (quote
   ( spaces tabs newline space-mark tab-mark newline-mark)))
 
-;; general programming language settings
+(defun dh-prog-mode-delete-trailing-whitespace ()
+  (when (derived-mode-p 'prog-mode)
+    (delete-trailing-whitespace)))
+
 (defun dh-prog-hooks ()
+  "general programming language settings"
   (whitespace-mode)
-  (delete-trailing-whitespace)
   (linum-mode 1)
   (git-gutter+-mode))
 
-(add-hook 'prog-mode-hook 'dh-prog-hooks)
+(setq dh-prog-mode-hook 'dh-prog-hooks)
+
+(add-hook 'prog-mode-hook (lambda ()
+			    (run-hooks 'dh-prog-mode-hook)))
