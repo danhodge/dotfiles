@@ -6,6 +6,9 @@
 (package-initialize)
 ;;(package-refresh-contents)
 
+;; spaces, not tabs
+(setq-default indent-tabs-mode nil)
+
 ;; hide the tool bar
 (tool-bar-mode -1)
 
