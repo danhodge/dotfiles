@@ -20,6 +20,8 @@
 
 ; Additional config
 (require 'init-theme)
+(require 'init-source-code)
+(require 'init-ruby)
 
 (provide 'init)
 ;;; init.el ends here

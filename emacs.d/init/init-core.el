@@ -23,6 +23,12 @@
 ; Show column number in the mode line
 (column-number-mode t)
 
+; store all backup & autosave files in the tmp dir
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))
+
 ;;; Various global text handling defaults
 
 ; Use spaces instead of hard tabs
