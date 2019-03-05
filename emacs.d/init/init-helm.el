@@ -5,7 +5,8 @@
 ;;; Code:
 
 (use-package helm
-  :ensure t)
+  :ensure t
+  :bind (("M-y" . helm-show-kill-ring)))
 
 (provide 'init-helm)
 ;;; init-helm.el ends here
