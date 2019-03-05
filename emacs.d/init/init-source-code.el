@@ -4,6 +4,11 @@
 
 ;;; Code:
 
+(use-package git-gutter+
+  :ensure t
+  :init (global-git-gutter+-mode)
+  :diminish (git-gutter+-mode . "gg"))
+
 (defun dh/prog-hooks ()
   "general programming language settings"
   (whitespace-mode)
