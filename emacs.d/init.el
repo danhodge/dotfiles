@@ -20,6 +20,8 @@
 
 ; Additional config
 (require 'init-theme)
+(require 'init-helm)
+(require 'init-projectile)
 (require 'init-source-code)
 (require 'init-ruby)
 
