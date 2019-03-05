@@ -20,6 +20,8 @@
 
 ; Additional config
 (require 'init-theme)
+
+(require 'init-browse-kill-ring)
 (require 'init-helm)
 (require 'init-magit)
 (require 'init-projectile)
