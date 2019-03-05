@@ -5,6 +5,7 @@
 ;;; Code:
 
 (use-package rspec-mode
+  :ensure t
   :init
   (require 'rspec-mode))
 
