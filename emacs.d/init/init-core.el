@@ -40,6 +40,12 @@
 
 ;;; End of text handling defaults
 
+;;; Keys
+
+;; Font size
+(global-set-key (kbd "C-+") 'text-scale-increase)
+(global-set-key (kbd "C--") 'text-scale-decrease)
+
 ; Install use-packge.
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
