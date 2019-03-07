@@ -22,8 +22,10 @@
 (require 'init-theme)
 
 (require 'init-ace-window)
+(require 'init-crux)
 (require 'init-helm)
 (require 'init-magit)
+(require 'init-markdown)
 (require 'init-projectile)
 (require 'init-source-code)
 (require 'init-ruby)
