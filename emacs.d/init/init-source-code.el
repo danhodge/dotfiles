@@ -31,7 +31,9 @@
 
 (defun dh/prog-hooks ()
   "general programming language settings"
-  (whitespace-mode)
+  (whitespace-mode +1)
+  (setq whitespace-line-column 80)
+  (setq whitespace-style '(face lines-tail))
   (linum-mode 1)
   (fci-mode 1)
   (subword-mode +1))
