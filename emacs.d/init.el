@@ -30,6 +30,7 @@
 (require 'init-projectile)
 (require 'init-source-code)
 (require 'init-ruby)
+(require 'init-yaml)
 
 (provide 'init)
 ;;; init.el ends here
