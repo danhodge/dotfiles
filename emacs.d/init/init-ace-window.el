@@ -6,7 +6,8 @@
 
 (use-package ace-window
   :ensure t
-  :bind (("M-o" . ace-window)))
+  :bind (("M-o" . ace-window)
+         ("C-c s" . ace-swap-window)))
 
 (provide 'init-ace-window)
 ;;; init-ace-window.el ends here
