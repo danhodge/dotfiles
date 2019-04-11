@@ -24,6 +24,7 @@
 (require 'init-ace-window)
 (require 'init-crux)
 (require 'init-elm)
+(require 'init-flycheck)
 (require 'init-helm)
 (require 'init-magit)
 (require 'init-markdown)
