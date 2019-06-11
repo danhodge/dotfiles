@@ -26,6 +26,7 @@
 (require 'init-elm)
 (require 'init-flycheck)
 (require 'init-helm)
+(require 'init-json)
 (require 'init-macros)
 (require 'init-magit)
 (require 'init-markdown)
