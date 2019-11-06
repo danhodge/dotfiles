@@ -31,8 +31,10 @@
 (require 'init-magit)
 (require 'init-markdown)
 (require 'init-projectile)
+(require 'init-rainbow)
 (require 'init-source-code)
 (require 'init-ruby)
+(require 'init-typescript)
 (require 'init-yaml)
 
 (provide 'init)

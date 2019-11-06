@@ -39,7 +39,8 @@
   (subword-mode +1))
 
 (add-hook 'prog-mode-hook #'dh/prog-hooks)
-(add-hook 'prog-mode-hook  #'smartparens-mode)
+(add-hook 'prog-mode-hook #'smartparens-mode)
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
 (provide 'init-source-code)
 ;;; init-source-code.el ends here
