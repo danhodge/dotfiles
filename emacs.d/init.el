@@ -34,6 +34,7 @@
 (require 'init-rainbow)
 (require 'init-source-code)
 (require 'init-ruby)
+(require 'init-javascript)
 (require 'init-typescript)
 (require 'init-yaml)
 
